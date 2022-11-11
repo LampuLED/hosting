@@ -1757,21 +1757,7 @@ var base64 = {
         return string;
     }
 };
- {
-    function callback(data, index) {
-        var i = 0;
-        for (; i < data[index].link.length; i++) {
-            if ("alternate" == data[index].link[i].rel) {
-                var r = data[index].link[i].href;
-                break;
-            }
-        }
-        return r;
-    }
-    function getField(message, fieldName, callback) {
-        return '<a href="' + callback + '">' + message[fieldName].title.$t + "</a>";
-    }
-    function send(a, k) {
+     function send(a, k) {
         var video1title = a[k].title.$t;
         var id = a[k].content.$t;
         var from_folder = $("<div>").html(id);
