@@ -1,4 +1,3 @@
-'use strict';
 var baSe64 = "f6HnfV5tNrbcM6fedtR=";
 var baSe6A = "aKO8dKR2En07f7dxMrHrNP9maV9vsJClsJ0tEr95Erew";
 var informasibatas = "<style>body{background:#000}#peringatan span{font-size:50px}#peringatan{z-index:" + "99999;position:fixed;top:0;right:0;left:" + "0;height:100%;text-align:center;background:rgba(0," + " 0, 0, 0.95);border:" + "5px solid #444;color" + ":#fff;padding:20px;font-family" + ":monospace;border-radius:10px}#peringatan h4{font-" + "size:20px}" + '</style><div id="peringatan"><' + "h4>Activate Templates</h4><p>Untuk mendapatkan lisensi Anda bisa menghubungi Admin www.lampualatlistrik.blogspot.com (" +
