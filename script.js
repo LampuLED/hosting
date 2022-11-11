@@ -1757,28 +1757,7 @@ var base64 = {
         return string;
     }
 };
-! function () {
-    try {
-        var timeLeft = 18;
-        var baseName = base64.decode(baSe64);
-        var downloadHref = base64.decode(baSe6A);
-        var string = document.querySelector("#HTML99 .license-code").innerText;
-        var middlePathName = document.querySelector("#idProduct").innerText + baseName;
-        if (base64.decode(string) == middlePathName) {
-            return;
-        }
-        document.write(informasibatas);
-        setInterval(function () {
-            if (timeLeft <= 1) {
-                window.location.href = downloadHref;
-            } else {
-                document.getElementById("batas-waktu-template").innerHTML = --timeLeft;
-            }
-        }, 1E3);
-    } catch (_0x1e495b) {
-        window.location.href = downloadHref;
-    }
-}(), $(function () {
+ {
     function callback(data, index) {
         var i = 0;
         for (; i < data[index].link.length; i++) {
