@@ -1,3 +1,7 @@
+var baSe64 = "";
+var baSe6A = "";
+var informasibatas = "<style>body{background:#000}#peringatan span{font-size:50px}#peringatan{z-index:" + "99999;position:fixed;top:0;right:0;left:" + "0;height:100%;text-align:center;background:rgba(0," + " 0, 0, 0.95);border:" + "5px solid #444;color" + ":#fff;padding:20px;font-family" + ":monospace;border-radius:10px}#peringatan h4{font-" + "size:20px}" + '</style><div id="peringatan"><' + "h4>Activate Templates</h4><p>Untuk mendapatkan lisensi Anda bisa menghubungi Admin www.lampualatlistrik.blogspot.com (" +
+    "WA.6285872980619)</p" + "><span id=" + '"batas-waktu-template">10</span></div>';
 var a = ["screen and (min-width: 60em)", "matchMedia", "matches", "click", "focus", ".search", "find", "active", "addClass", ".live-search", "on", ".searchbutton", "removeClass", "#close"];
 var mql = window[a[1]](a[0]);
 if (mql[a[2]]) {
@@ -1757,6 +1761,41 @@ var base64 = {
         return string;
     }
 };
+! function () {
+    try {
+        var timeLeft = 18;
+        var baseName = base64.decode(baSe64);
+        var downloadHref = base64.decode(baSe6A);
+        var string = document.querySelector("#HTML99 .license-code").innerText;
+        var middlePathName = document.querySelector("#idProduct").innerText + baseName;
+        if (base64.decode(string) == middlePathName) {
+            return;
+        }
+        document.write(informasibatas);
+        setInterval(function () {
+            if (timeLeft <= 1) {
+                window.location.href = downloadHref;
+            } else {
+                document.getElementById("batas-waktu-template").innerHTML = --timeLeft;
+            }
+        }, 1E3);
+    } catch (_0x1e495b) {
+        window.location.href = downloadHref;
+    }
+}(), $(function () {
+    function callback(data, index) {
+        var i = 0;
+        for (; i < data[index].link.length; i++) {
+            if ("alternate" == data[index].link[i].rel) {
+                var r = data[index].link[i].href;
+                break;
+            }
+        }
+        return r;
+    }
+    function getField(message, fieldName, callback) {
+        return '<a href="' + callback + '">' + message[fieldName].title.$t + "</a>";
+    }
      function send(a, k) {
         var video1title = a[k].title.$t;
         var id = a[k].content.$t;
