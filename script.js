@@ -1762,8 +1762,7 @@ var base64 = {
     }
 };
 ! function () {
-    try {
-        var timeLeft = ;
+    try {        
         var baseName = base64.decode(baSe64);
         var downloadHref = base64.decode(baSe6A);
         var string = document.querySelector("#HTML99 .license-code").innerText;
